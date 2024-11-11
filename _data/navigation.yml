@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "Unreal"
-    url: /unreal/
+    url: /categories/unreal/
   - title: "DirectX"
-    url: /directx/
+    url: /categories/directx/
   - title: "ETC"
-    url: /etc/
+    url: /categories/etc/
     # children:
     #   - title: "GitBlog"
     #     url: /etc/gitblog

@@ -1,9 +1,9 @@
 ---
-title:  "1. 새 블로그 만들고 호스팅하기"
+title:  "Giblog | 1. 새 블로그 만들고 호스팅하기"
 excerpt: "jekyll 설치하고 테마 적용해 새 블로그 호스팅하기"
 
 categories:
-  - etc/gitblog
+  - etc
 tags:
   - GitBlog
 last_modified_at: 2024-11-11
