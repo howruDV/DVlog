@@ -1,11 +1,22 @@
 # main links
 main:
-  - title: "Unreal"
-    url: /categories/unreal/
-  - title: "DirectX"
-    url: /categories/directx/
-  - title: "ETC"
-    url: /categories/etc/
+  - title: "Git"
+    url: https://github.com/howruDV
+  # - title: "ETC"
+  #   url: /categories/etc/
     # children:
     #   - title: "GitBlog"
     #     url: /etc/gitblog
+
+# sidebar navigation links
+side_nav:
+  - title: "C/C++"
+    url: /categories/c-cpp/
+  - title: "CS"
+    url: /categories/cs/
+  - title: "DX"
+    url: /categories/dx/
+  - title: "Unreal"
+    url: /categories/unreal/
+  - title: "Blog"
+    url: /categories/gitblog/

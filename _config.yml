@@ -19,11 +19,11 @@ minimal_mistakes_skin: "dark"
 # Site Settings
 locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "🐧DVlog"
+title                    : "DVlog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "DV"
-description              : "개발 공부 기록"
+description              : "DV's Dev Blog"
 url                      : "https://howrudv.github.io/DVlog/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 # repository               : https://github.com/howruDV/DVlog
@@ -125,12 +125,12 @@ author:
   location         : 
   email            :
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/howruDV/"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:c1oudcat@naver.com"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/howruDV/"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:c1oudcat@naver.com"
     #- label: "Website"
       #icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -142,12 +142,12 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/howruDV/"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:c1oudcat@naver.com"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/howruDV/"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:c1oudcat@naver.com"
     #- label: "Website"
       #icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -316,8 +316,10 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      # share: true
       related: true
+      sidebar:
+        nav: "side_nav"
   
   # _pages
   - scope:
@@ -328,5 +330,7 @@ defaults:
       author_profile: true
       read_time: false
       comments: false
-      share: true
+      # share: true
       related: false
+      sidebar:
+        nav: "side_nav"

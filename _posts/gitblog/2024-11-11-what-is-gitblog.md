@@ -1,9 +1,9 @@
 ---
-title:  "Giblog | 0. 왜 Git Blog인가"
+title:  "GitBlog | 0. 왜 Git Blog인가"
 excerpt: "GitHub Pages의 개념과 선택 이유"
 
 categories:
-  - etc
+  - GitBlog
 tags:
   - GitBlog
 last_modified_at: 2024-11-11
