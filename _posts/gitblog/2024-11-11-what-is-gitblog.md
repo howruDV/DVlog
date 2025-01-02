@@ -1,5 +1,5 @@
 ---
-title:  "GitBlog | 0. 왜 Git Blog인가"
+title:  "GitBlog|0. 왜 Git Blog인가"
 excerpt: "GitHub Pages의 개념과 선택 이유"
 
 categories:
@@ -37,7 +37,7 @@ Git의 버전 관리 시스템을 그대로 활용할 수 있어 편리하다.
 GitHub Pages는 GitHub에서 제공하는 무료 웹 호스팅 서비스로, 주로 정적 웹사이트를 호스팅하는데 사용된다.
 
 ## 정적 사이트란
-정적 사이트란 미리 만들어진 HTML, CSS, JavaScript 파일을 그대로 클라이언트에 전달해 보여주는 웹사이트를 의미한다. 데이터베이스와 서버의 별도 처리 없이 이미 페이지가 구성이 완료되어 있다. 이렇듯 모든 사용자에게 동일한 HTML을 제공하는 특징을 `static 하다`고 한다. 따라서 블로그, 포트폴리오 등과 같이 자주 변하지 않거나 사용자 입력을 많이 받지 않는 사이트에 적합하다.
+정적 사이트란 미리 만들어진 HTML, CSS, JavaScript 파일을 그대로 클라이언트에 전달해 보여주는 웹사이트를 의미한다. 데이터베이스와 서버의 별도 처리 없이 이미 페이지가 구성이 완료되어 있다. 이렇듯 모든 사용자에게 동일한 HTML을 제공하는 특징을 <mark>static 하다</mark>고 한다. 따라서 블로그, 포트폴리오 등과 같이 자주 변하지 않거나 사용자 입력을 많이 받지 않는 사이트에 적합하다.
 
 이런 특징으로 많은 사람들이 GitHub Pages를 사용해 블로그를 게시해서 Git Blog라고도 부른다.
 
@@ -56,4 +56,4 @@ GitHub Pages는 내부적으로 Jekyll를 지원하기 때문에, 별도의 서�
 Jekyll을 설치하면 로컬 환경에서 사이트를 미리 볼 수 있어, GitHub에 푸시하기 전 사이트가 어떻게 보일지 쉽게 확인하고 수정할 수 있다. 이를 통해 훨씬 수월하고 안정적으로 작업이 가능하다.
 
 # References
-- https://devinlife.com/howto/
+- [🔗Blog : devinlife](https://devinlife.com/howto/)

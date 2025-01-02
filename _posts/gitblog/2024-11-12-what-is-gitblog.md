@@ -1,12 +1,12 @@
 ---
-title:  "GitBlog | 1. 새 블로그 만들고 호스팅하기"
+title:  "GitBlog|1. 새 블로그 만들고 호스팅하기"
 excerpt: "jekyll 설치하고 테마 적용해 새 블로그 호스팅하기"
 
 categories:
   - GitBlog
 tags:
   - GitBlog
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-12
 
 toc: true
 toc_label: ""
@@ -19,7 +19,7 @@ toc_sticky: true
 RubyInstaller 다운로드 + jekyll 설치
 
 ## 설치과정
-1. RubyInstaller-2.4 이상 버전 다운로드 (Ruby+DevKit, 디퐅트 옵션)
+1. RubyInstaller-2.4 이상 버전 다운로드 (Ruby+DevKit, 디폴폴트 옵션)
 	- <https://rubyinstaller.org/downloads/>
 
 
