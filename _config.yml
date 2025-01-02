@@ -12,9 +12,8 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "pingu" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin: "dark"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -119,12 +118,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "DV"
+  # name             : "DV"
   avatar           : "/assets/images/profile-pingu.jpg"
-  bio              : "죽은자의 온기가 남아있습니다"
+  # bio              : "죽은자의 온기가 남아있습니다"
   location         : 
   email            :
-  links:
+  links            : false
     # - label: "GitHub"
     #   icon: "fab fa-fw fa-github"
     #   url: "https://github.com/howruDV/"
@@ -141,7 +140,7 @@ author:
 
 # Site Footer
 footer:
-  links:
+  links: false
     # - label: "GitHub"
     #   icon: "fab fa-fw fa-github"
     #   url: "https://github.com/howruDV/"
@@ -314,7 +313,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      # read_time: true
+      show_date: true
       comments: true
       # share: true
       related: true

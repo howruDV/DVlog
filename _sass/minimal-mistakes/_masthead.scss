@@ -50,6 +50,8 @@
   align-self: center;
   font-weight: bold;
   // z-index: 20;
+  font-size: 2rem;
+  font-style: italic;
 }
 
 .site-subtitle {
@@ -58,16 +60,19 @@
 }
 
 .masthead__menu {
-  float: inline-start;
-  margin-inline: 0;
+  float: left;
+  font-family: $menufont;
+  font-size: 1.4rem;
+  margin-left: 0;
+  margin-right: 0;
   width: 100%;
   clear: both;
 
   .site-nav {
-    margin-inline-start: 0;
+    margin-left: 0;
 
     @include breakpoint($small) {
-      float: inline-end;
+      float: right;
     }
   }
 
@@ -83,9 +88,9 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  font-weight: bold;
 
   &--lg {
     padding-inline-end: 2em;
-    font-weight: 700;
   }
 }
