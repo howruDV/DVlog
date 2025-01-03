@@ -109,8 +109,8 @@ abbr[data-original-title] {
 /* mark */
 mark {
   background-color: rgba($primary-color, 0.4);
-  color: rgb(32, 32, 32);
-  padding: 0.2em 0.25em 0.2em 0.25em;
+  color: $text-color;
+  padding: 0.15em 0.25em 0.15em 0.25em;
   border-radius: 0.3em;
 }
 
@@ -121,11 +121,13 @@ strong {
 /* blockquotes */
 
 blockquote {
-  margin: 1.5em 1em 1.5em 0em;
-  padding: 0.7em 1em 0.7em 1.5em;
-  background-color: $primary-color;
-
-  border-left: 0.25em solid $primary-color;
+  margin: 1em 0em 1.5em 0em;
+  padding: 1em 2em 0.7em 2em;
+  background-color: rgba(#fff, 0.1);
+  // background-color: rgba(mix($primary-color, #fff, 30%), 0.2);
+  // border-left: 0.5em solid rgba(#fff, 0.3);
+  border-radius: 0.4em;
+  font-size: medium;
 
   cite {
     font-style: italic;
@@ -143,6 +145,12 @@ blockquote {
 
   :first-child {
     margin-top: 0px;
+  }
+
+  p:first-of-type{
+    font-weight: bold;
+    font-size: large;
+    color: $primary-color;
   }
 
   :last-child {
@@ -182,7 +190,11 @@ code,
 kbd,
 samp,
 pre {
-  font-family: $monospace;
+  background-color: mix($code-background-color, #000, 70%);
+  font-family: "Consolas", "Fira Code", $monospace;
+  font-size: 14px;
+  border-radius: 8px;
+  line-height: 1.7;
 }
 
 pre {
@@ -195,9 +207,10 @@ li > code,
 figcaption > code,
 td > code {
   font-size: 0.85em;
-  padding: 0.15em 0.05em 0.15em 0.05em;
+  padding: 0.15em 0.3em 0.15em 0.3em;
+  margin-left: 0.1em;
   margin-right: 0.1em;
-  font-family: $monospace;
+  font-family: "Consolas", "Fira Code", $monospace;
   font-weight: 500;
   background-color: $code-background-color-dark;
   color: $text-color;

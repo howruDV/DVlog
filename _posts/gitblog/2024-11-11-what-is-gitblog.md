@@ -15,7 +15,7 @@ toc_sticky: true
 
 
 
-# 📒 0. 왜 Git Blog인가
+# 0. 왜 Git Blog인가
 ## Customizing
 이전에는 Notion, Velog 등의 플랫폼을 사용했는데, 특정 기능에 불편함을 느껴도 이를 해결하기 어려웠다.
 
@@ -33,7 +33,7 @@ Git의 버전 관리 시스템을 그대로 활용할 수 있어 편리하다.
 또 글을 작성할 때마다 커밋 기록이 쌓인다!
 
 
-# 📒 1. GitHub Pages
+# 1. GitHub Pages
 GitHub Pages는 GitHub에서 제공하는 무료 웹 호스팅 서비스로, 주로 정적 웹사이트를 호스팅하는데 사용된다.
 
 ## 정적 사이트란
@@ -44,7 +44,7 @@ GitHub Pages는 GitHub에서 제공하는 무료 웹 호스팅 서비스로, 주
 ## GitHub Pages의 특징 : Jekyll 통합
 GitHub Pages는 Jekyll이라는 정적 사이트 생성기와 통합되어 있어, 마크다운 파일을 사용해 블로그나 문서화 사이트를 쉽게 만들 수 있다.
 
-# 📒 2. Jekyll
+# 2. Jekyll
 Jekyll은 정적 사이트 생성기로, 마크다운이나 HTML 파일을 정적 웹사이트 형태로 변환해주는 툴이다. Ruby 언어로 작성되며, 데이터베이스나 백엔드 없이도 정적 웹사이트를 쉽게 구축할 수 있다.
 
 ## Git Blog와 Jekyll

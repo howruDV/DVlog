@@ -15,7 +15,7 @@ toc_sticky: true
 
 
 
-# 📒 1. jekyll 설치
+# 1. jekyll 설치
 RubyInstaller 다운로드 + jekyll 설치
 
 ## 설치과정
@@ -56,7 +56,7 @@ RubyInstaller 다운로드 + jekyll 설치
 - [🔗Docs : jekyll 윈도우 설치 문서](https://jekyllrb.com/docs/installation/windows/)
 
 
-# 📒 2. 테마 다운로드
+# 2. 테마 다운로드
 
 ## 설치과정
 1. 테마 선택 : minimal-mistakes
@@ -100,7 +100,7 @@ RubyInstaller 다운로드 + jekyll 설치
 - [🔗Docs : minimal-mistakes 설치 가이드](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#remote-theme-method)
 
 
-# 📒 3. 온라인 배포
+# 3. 온라인 배포
 1. GitHub Repo 세팅
 	- Github Repo - Setting - Pages
 	- 세팅 변경
