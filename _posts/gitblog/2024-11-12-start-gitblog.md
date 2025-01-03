@@ -1,5 +1,5 @@
 ---
-title:  "GitBlog|1. 새 블로그 만들고 호스팅하기"
+title:  "GitBlog|1. 블로그 시작하기"
 excerpt: "jekyll 설치하고 테마 적용해 새 블로그 호스팅하기"
 
 categories:
