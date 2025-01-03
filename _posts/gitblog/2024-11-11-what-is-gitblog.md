@@ -1,5 +1,5 @@
 ---
-title:  "GitBlog|0. 왜 Git Blog인가"
+title:  "GitBlog ㅣ 0. 왜 Git Blog인가"
 excerpt: "GitHub Pages의 개념과 선택 이유"
 
 categories:
