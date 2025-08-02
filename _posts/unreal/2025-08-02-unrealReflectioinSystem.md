@@ -80,7 +80,7 @@ int32 ResourcesToGather;
 <br>
 
 Function 실행
-- `void UClass::ProcessEvent(\*UFunction, void* Param)
+- `void UClass::ProcessEvent(\*UFunction, void* Param)`
 <br>
 <br>
 
